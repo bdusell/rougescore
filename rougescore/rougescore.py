@@ -1,7 +1,10 @@
+from __future__ import division
 import collections
 
+import six
+
 def _ngrams(words, n):
-    queue = collections.deque([], n)
+    queue = collections.deque(maxlen=n)
     for w in words:
         queue.append(w)
         if len(queue) == n:
@@ -15,7 +18,7 @@ def _ngram_count(words, n):
 
 def _counter_overlap(counter1, counter2):
     result = 0
-    for k, v in counter1.items():
+    for k, v in six.iteritems(counter1):
         result += min(v, counter2[k])
     return result
 

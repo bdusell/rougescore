@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 *.swp
+/build/
+/dist/
+/rougescore.egg-info/
