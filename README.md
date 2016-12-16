@@ -34,3 +34,12 @@ not supported. That is, peer and model summaries are always treated as single,
 continuous strings of tokens, whereas the original ROUGE script allows the
 user to split them into sub-units, which affects the matching of common
 sub-sequences.
+
+Installation
+------------
+
+To install this package (possibly in a virtualenv), run:
+
+```sh
+python setup.py install
+```
