@@ -38,8 +38,17 @@ sub-sequences.
 Installation
 ------------
 
-To install this package (possibly in a virtualenv), run:
+To install this package (possibly in a
+[virtualenv](https://virtualenv.pypa.io/en/stable/)), run:
 
 ```sh
+git clone https://github.com/bdusell/rougescore.git
+cd rougescore
 python setup.py install
+```
+
+or simply
+
+```sh
+pip install git+git://github.com/bdusell/rougescore.git
 ```
