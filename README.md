@@ -6,7 +6,7 @@ This is a Python re-implementation of the ROUGE evaluation package.
 ROUGE is a suite of evaluation metrics for automatic text summarization. In
 ROUGE, a "peer" summary produced by a machine summarization system is compared
 against one or more hand-written "model" summaries and then assigned a score
-from 0 to 1. This score is the F-meausure of recall vs. precision, and the
+from 0 to 1. This score is the F-measure of recall vs. precision, and the
 evaluator can adjust a parameter α to control whether this score favors recall
 (does the peer summary contain all of the information in the model summaries?)
 or precision (does the peer summary contain *only* information in the model
